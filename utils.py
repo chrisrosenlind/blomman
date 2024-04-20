@@ -13,7 +13,7 @@ def extract_text_from_docx(docx_path):
         # Check if entire row is not only white space chars
         if text:
             full_text.append(text)
-    return '\n'.join(full_text)
+    return "\n".join(full_text)
 
 def get_files_in_folder(folder_path):
     files = []
