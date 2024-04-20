@@ -1,4 +1,6 @@
-import os, pdf2docx, docx
+import os 
+import pdf2docx 
+import docx
 
 def convert_pdf_to_docx(pdf_path, docx_path):
     converter = pdf2docx.Converter(pdf_path)
