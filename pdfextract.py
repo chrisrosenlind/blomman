@@ -23,8 +23,8 @@ def create_txt(pdf_path, txt_path):
             text = page.get_text()
             text = text.replace("and/or", "and or")
             # Regex remove redundant chars
-            text = re.sub(r"\u2014", "", re.sub(r"--+|\.+|=+|_+", " ", re.sub(r"and/or", "and or",
-                          re.sub(r"\s*\\n\s*", " ", re.sub(r"\n{3,}\s*", "\n\n", re.sub(r"\s{3,}", " ", text))))))
+            text = re.sub(r"\u2014", "", re.sub(r"and/or", "and or",
+                          re.sub(r"\s*\\n\s*", " ", re.sub(r"\n{3,}\s*", "\n\n", re.sub(r"\s{3,}", " ", text)))))
             # Bell
             text = text.replace("\x07", "")
 
@@ -36,4 +36,4 @@ def create_txt(pdf_path, txt_path):
                     out.write(line)
                     out.write('\n')
 
-    doc.close()
+        doc.close()
