@@ -21,7 +21,25 @@ def create_txt(pdf_path, txt_path):
             # TODO - Then we remove all ―sentences‖ that do not contain at least 50% alphabetic characters
             # Regex remove redundant chars
             text = re.sub(
-                r"--+", " ", re.sub(r"\.\.+", " ", re.sub(r"=+", " ", re.sub(r"_+", " ", text))))
+                r"\u2014", "",
+                re.sub(
+                    r"--+|\.+|=+|_+", " ",
+                    re.sub(
+                        r"and/or", "and or",
+                        re.sub(
+                            r"\s*\\n\s*", " ",
+                            re.sub(
+                                r"\n{3,}\s*", "\n\n",
+                                re.sub(
+                                    r"\s{3,}", " ",
+                                    text
+                                )
+                            )
+                        )
+                    )
+                )
+            )
+
             clean_text = text.encode("utf8", "ignore").decode("utf8")
             lines = clean_text.splitlines()
             for line in lines:
