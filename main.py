@@ -1,3 +1,10 @@
 import pdfextract
+import os
 
-pdfextract.create_txt("pdf/test.pdf", "txt/test.txt")
+files = os.listdir("pdf/")
+if len(files) != 0:
+    for file in files:
+        docx = file.replace("pdf", "docx")
+        pdfextract.create_txt("pdf/" + file, "txt/" + docx)
+elif len(files) == 0:
+    print("No files in dir.")
