@@ -4,22 +4,8 @@ To use the functionalities provided in this project, you need to install the fol
 
 ## Installation Steps
 
-1. **pdf2docx**
+1. **pymupdf **
 
    ```bash
-   pip install pdf2docx
+   pip install pymupdf
    ```
-
-   This package is used to convert PDF files to DOCX format.
-
-2. **python-docx**
-
-   ```bash
-   pip install python-docx
-   ```
-
-   This package is used to work with DOCX files in Python.
-
-## Usage
-
-After installing the required packages, you can use the provided functions or scripts to work with PDF and DOCX files as needed.
