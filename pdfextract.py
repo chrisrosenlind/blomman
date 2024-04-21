@@ -19,6 +19,7 @@ def create_txt(pdf_path, txt_path):
             text = text.replace("and/or", "and or")
             # TODO - We also exclude lines consisting of fewer than 50 alphabetic characters
             # TODO - Then we remove all ―sentences‖ that do not contain at least 50% alphabetic characters
+            # TODO - Dont go for line, go for sentence. Sentence < 50 chars gets removed.
             # Regex remove redundant chars
             text = re.sub(r"\u2014", "", re.sub(r"--+|\.+|=+|_+", " ", re.sub(r"and/or", "and or",
                           re.sub(r"\s*\\n\s*", " ", re.sub(r"\n{3,}\s*", "\n\n", re.sub(r"\s{3,}", " ", text))))))
