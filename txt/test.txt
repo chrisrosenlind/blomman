@@ -130,13 +130,13 @@ the segments and also to assess their performance. See note 4 for additional
 information.
 Revenue recognition
 Revenue is recognized at an amount that reflects the expected and entitled  
-consideration for transferring goods and/or services to customers when control 
+consideration for transferring goods and or services to customers when control 
 has passed to the customer.
 Goods sold
 Revenue from goods sold are recognized at one point in time when control of 
 the good has been transferred to the customer. This occurs for example when 
 the Group has a present right to payment for the good, the customer has legal 
-title of the good, the good has been delivered to the customer and/or the cus-
+title of the good, the good has been delivered to the customer and or the cus-
 tomer has the significant risks and rewards of the ownership of the good.
 When the goods sold are highly customized and an enforceable right to pay-
 ment is present, revenue is recognized over time using the proportion of cost 
@@ -486,7 +486,7 @@ incentives received and any initial direct costs incurred by the Group as well a
 an estimate of costs to be incurred by the Group in dismantling and removing 
 the underlying asset, restoring the site on which it is located or restoring the 
 underlying asset to the condition required by the lease contract. Cost for dis-
-mantling, removing or restoring the site on which it is located and/or the under-
+mantling, removing or restoring the site on which it is located and or the under-
 lying asset is only recognized when the Group incurs an obligation to do so.
 The right-of-use asset is depreciated over the lease term, using the straight-
 line method.  
@@ -1055,13 +1055,13 @@ over time, to determine the revenue and cost to be recognized in the current
 period, and whether any losses need to be recognized, 
 • if the control has been transferred to the customer (for example the Group has 
 a present right to payment for the good, the customer has legal title of the 
-good, the good has been delivered to the customer and/or the customer has 
+good, the good has been delivered to the customer and or the customer has 
 the significant risks and rewards of the ownership of the good), to determine 
 if revenue and cost should be recognized in the current period,
 • the transaction price of each performance obligation when a contract 
 includes more than one performance obligation, to determine the revenue 
 and cost to be recognized in the current period,
-• certain contracts which include a right of return and/or volume rebates that 
+• certain contracts which include a right of return and or volume rebates that 
 give rise to variable consideration, variable consideration is assessed to iden-
 tify possible constrains, and
 • the customer credit risk (i.e. the risk that the customer will not meet the  
