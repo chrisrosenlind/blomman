@@ -4,7 +4,7 @@ To use the functionalities provided in this project, you need to install the fol
 
 ## Installation Steps
 
-1. **pymupdf **
+1. **pymupdf**
 
    ```bash
    pip install pymupdf
